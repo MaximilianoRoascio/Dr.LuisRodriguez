@@ -413,8 +413,13 @@ nav li {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    transition: all 2s;
 }
-
+.formulariocontacto :hover {
+    background-color: antiquewhite;
+    width: 400px;
+    height: 50px;
+}
 /*PAGINA USUARIOS*/
 
 .conteinerusuarios {
