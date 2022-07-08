@@ -30,6 +30,7 @@ li a {
 
 }
 
+
 nav li {
     display: inline-block;
     font-style: initial;
@@ -43,7 +44,6 @@ nav li {
 .fondomain {
     background-color: #57cc99;
     width: 100%;
-    
     padding: 30px;
     /*display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -80,9 +80,12 @@ nav li {
     text-decoration: dotted underline;
     color: black;
 }
+.navegador {
+    z-index: 3;
+    top: 5px;
+}
 
 .parallaxtexto {
-    width: 700px;
     height: 450px;  
     font-style: oblique;
     font-weight: bold;
