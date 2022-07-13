@@ -6,61 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <script src="https://kit.fontawesome.com/809bca453a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../style/style.css">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../style/style.css">
 </head>
+
 <body>
-    <header class="HeaderIndex">
+    <header class="HeaderIndex container">
         <h1 class="h1Header">Dr. Luis Rodriguez</h1>
+      
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Sobre Mi.html">Sobre Mi</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Tips Salud.html">Tips Salud</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Usuarios.html">Usuarios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./contacto.html">Contacto</a>
-                  </li>
-                  
-                </ul>
-              </div>
-            </div>
-          </nav>
+      <nav class=" row navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Usuarios.html">Usuarios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Tips Salud.html">Tips Salud</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Sobre Mi.html">Sobre Mi</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      
     </header>
+  
        
 
-        <section class="conteiner">
+    <section class="conteiner">
             <h2 class="TITULOCONTACTO">PÓNGASE EN CONTACTO CON DR. RODRÍGUEZ</h2>
         <p class="textocontacto">Para obtener más información sobre un procedimiento o para comentarios/ preguntas, complete el siguiente formulario</p>
         <form action="" class="formulariocontacto">
-            <label for="Nombre">Nombre*</label>
-            <input type="text" name="Nombre" placeholder="Nombre Completo">
-            <label for="mail">Correo electronico*</label>
-            <input type="email" name="mail" placeholder="correo electrónico">
-            <label for="Teléfono">Teléfono*</label>
-            <input type="number" name="Teléfono" placeholder="teléfono">
-            <label for="Ingrese su Mensaje"> Mensaje (máximo 400 caracteres)</label>
-            <textarea name="Ingrese su mensaje" placeholder="Ingrese su mensaje" cols="30" rows="10"></textarea>
+          <section class="conteiner">
+          
+        <div class="row g-3">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Ingrese su texto</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+  
+            
             <input type="reset" value="Borrar Contenido">
             <input type="submit" value="Enviar">
         </form>
@@ -93,6 +111,7 @@
         <script>
             AOS.init();
           </script>
+          <script src="js/bootstrap.min.js"></script>
     
 
     
