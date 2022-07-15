@@ -1,0 +1,98 @@
+.conteinermi {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+
+}
+.conteinermi__dr {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #57cc99;
+}
+.sobremitext {
+    font-weight: normal;
+    color: antiquewhite;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px;
+}
+.sobremi {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+.sobremih4 {
+    text-align: center;
+    margin-top: 40px;
+
+}
+.imagensobremi {
+    position: relative;
+    left: 1600px;
+    width: 200px;
+    margin: 30px;
+}
+.conteinersobremi {
+    text-align: center;
+    font-size: 25px;
+}
+.titlesobremi {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 5px;
+    bottom: 5px;
+}
+.interlineado {
+    font-size: 20px;
+    padding: 10px;
+    line-height: 30,0px;
+    display: flex;
+    justify-content: center;
+}
+.backcolor {
+    background-color: #57cc99;
+
+}
+.backcolor article {
+    border: solid 1px black;
+}
+.conteinersobremi__grids {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "grids1 grids3 grids3 grids2"
+    "grids1 grids3 grids3 grids2"
+    "grids4 grids4 grids4 grids2";
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.grids1 {
+    grid-area: grids1;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+   
+}
+.grids2 {
+    grid-area: grids2;
+}
+.grids3 {
+    grid-area: grids3;
+}
+.grids4 {
+    grid-area: grids4;
+}

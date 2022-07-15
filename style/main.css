@@ -1,0 +1,449 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.HeaderIndex {
+  background-color: black;
+  background-image: url(../img/OIP.jpg);
+  background-repeat: no-repeat;
+  height: 250px;
+  background-position: center;
+  background-size: contain;
+  border-top: solid 1px antiquewhite; }
+
+.h1Header {
+  color: antiquewhite;
+  font-style: initial;
+  font-weight: bold;
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 90px; }
+
+li a {
+  text-decoration: none;
+  color: #57cc99; }
+
+nav li {
+  display: inline-block;
+  font-style: initial;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: start;
+  padding: 20px;
+  padding-bottom: 20px; }
+
+.fondomain {
+  background-color: #57cc99;
+  width: 100%;
+  padding: 30px;
+  /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "fondomain__especialidad fondomainDr aside";
+    border-top: solid antiquewhite;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    border: solid 2px green;
+    margin-bottom: 10px;*/ }
+
+.parallax {
+  background-image: url("../img/ART1-Q-ES-NEUROLOGIA.jpg");
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.tituloParallax {
+  font-style: initial;
+  font-weight: bold;
+  font-size: 60px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  text-decoration: dotted underline;
+  color: black; }
+
+.navegador {
+  z-index: 3;
+  top: 5px; }
+
+.parallaxtexto {
+  height: 450px;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 30px;
+  border: dashed;
+  margin: 30px;
+  padding: 10px 10px 10px 10px;
+  bottom: 10px 10px 10px 10px;
+  overflow: auto; }
+
+.parallaxSalud {
+  background-image: url("../img/8611c76222d59717cc9c777d1ede01e1-fondo-negro-abstracto.jpg");
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.youtube {
+  margin-top: 60px;
+  height: 500px;
+  width: 800px; }
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  bottom: 150px; }
+
+.footercontacto {
+  width: 100%;
+  height: 300px;
+  background-color: black; }
+
+.footertitulo {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: serif;
+  text-align: center;
+  color: antiquewhite;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.redessociales1 {
+  font-size: 25px;
+  margin: 15px;
+  color: #57cc99; }
+
+.redessociales2 {
+  font-size: 25px;
+  color: #57cc99; }
+
+.parallaxvisite {
+  background-image: url("../img/200905-centro-de-salud-tziritzicuaro-800x533-atiempo.mx_-1-780x405.jpeg");
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.footerclass {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.visite {
+  width: 200px;
+  height: 300px;
+  background-color: #57cc99;
+  font-size: 30px;
+  border: solid 1px black;
+  margin: 50px; }
+
+.gps {
+  width: 400px;
+  margin: 30px; }
+
+.aside {
+  width: 500px;
+  height: 700px;
+  font-size: 25px;
+  margin: 20px;
+  color: black;
+  overflow: auto; }
+
+.conteiner {
+  background-color: #d8e2dc; }
+
+.TITULOCONTACTO {
+  font-style: inherit;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: serif;
+  text-align: center;
+  color: #57cc99;
+  text-decoration: underline; }
+
+.textocontacto {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center; }
+
+.formulariocontacto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center; }
+
+.conteinermi {
+  background-color: black;
+  width: 100%;
+  height: 200px; }
+
+.conteinermi__dr {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: #57cc99; }
+
+.sobremitext {
+  font-weight: normal;
+  color: antiquewhite;
+  font-size: 20px;
+  text-align: center;
+  margin: 30px; }
+
+.sobremi {
+  text-align: center;
+  color: black;
+  font-size: 40px; }
+
+.sobremih4 {
+  text-align: center;
+  margin-top: 40px; }
+
+.imagensobremi {
+  position: relative;
+  left: 1600px;
+  width: 200px;
+  margin: 30px; }
+
+.conteinersobremi {
+  text-align: center;
+  font-size: 25px; }
+
+.titlesobremi {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+  font-weight: bold;
+  margin: 5px;
+  bottom: 5px; }
+
+.interlineado {
+  font-size: 20px;
+  padding: 10px;
+  line-height: 30,0px;
+  display: flex;
+  justify-content: center; }
+
+.backcolor {
+  background-color: #57cc99; }
+
+.backcolor article {
+  border: solid 1px black; }
+
+.conteinersobremi__grids {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "grids1 grids3 grids3 grids2" "grids1 grids3 grids3 grids2" "grids4 grids4 grids4 grids2";
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px; }
+
+.grids1 {
+  grid-area: grids1;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  grid-column-gap: 1px;
+  grid-row-gap: 1px; }
+
+.grids2 {
+  grid-area: grids2; }
+
+.grids3 {
+  grid-area: grids3; }
+
+.grids4 {
+  grid-area: grids4; }
+
+.menutips {
+  list-style-type: none; }
+
+.menutips li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+  position: relative; }
+
+.submenutips {
+  position: absolute;
+  display: none;
+  background-color: black; }
+
+.submenutips li {
+  display: block; }
+
+.menutips li:hover .submenutips {
+  display: block; }
+
+.conteinertips {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly; }
+
+.footerback {
+  width: 100%;
+  height: 200px;
+  background-color: black; }
+
+.conteinerusuarios {
+  background-color: #d8e2dc;
+  background-image: url(../img/esclerosis-multiple-800x675.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left; }
+
+.conteinerusuarios__sub {
+  font-style: inherit;
+  font-weight: bolder;
+  font-size: 45px;
+  text-align: center;
+  text-decoration: underline;
+  color: #57cc99; }
+
+.esclerosis {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center; }
+
+.esclerosistext {
+  width: 800px;
+  height: 750px;
+  font-style: oblique;
+  font-weight: lighter;
+  font-size: 20px;
+  margin: 100px;
+  position: relative;
+  left: 1500px;
+  bottom: 100px; }
+
+.parallaxusuarios {
+  background-image: url("../img/600x400_alimentos-vitamind-d-coronvairus-sistema-inmune.jpg");
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.vitd {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+  color: #57cc99; }
+
+.vitaminadtext {
+  width: 800px;
+  height: 500px;
+  overflow: auto;
+  position: relative;
+  left: 1100px;
+  margin: 40px;
+  color: #57cc99;
+  font-size: 30px;
+  border-style: solid;
+  border-color: orange; }
+
+.containerusuarios2 {
+  margin: 10px;
+  width: 100%;
+  height: 600px;
+  background-color: gray;
+  background-image: url(../img/00GLAUCOMA.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain; }
+
+.ojos {
+  font-size: 45px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #57cc99; }
+
+.ojostext {
+  width: 1500px;
+  height: 450px;
+  text-align: justify;
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  left: 450px; }
+
+.conteinerriesgovascular {
+  background-color: #d8e2dc;
+  height: 500px; }
+
+.vasculartitle {
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 45px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #57cc99;
+  text-decoration: underline; }
+
+.vasculartext {
+  width: 80%;
+  height: 450px;
+  text-align: justify;
+  position: relative;
+  left: 550px;
+  bottom: 300px;
+  font-size: 25px; }
+
+.imgvascular {
+  margin: 10px; }
+
+.conteinercerebro {
+  background-color: gray; }
+
+.cerebrotitle {
+  font-size: 35px;
+  color: #57cc99;
+  background-color: antiquewhite;
+  text-align: center; }
+
+.cerebroimg {
+  position: relative;
+  left: 1300px; }
+
+.cerebrotext {
+  font-size: 20px;
+  padding: 5px;
+  margin: 10px; }

@@ -1,0 +1,28 @@
+.conteiner {
+    background-color: #d8e2dc;
+}
+
+
+.TITULOCONTACTO {
+    font-style: inherit;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: serif;
+    text-align: center;
+    color: #57cc99;
+    text-decoration: underline;
+}
+.textocontacto {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.formulariocontacto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
