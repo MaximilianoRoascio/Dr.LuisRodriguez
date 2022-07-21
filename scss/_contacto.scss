@@ -26,3 +26,25 @@
     align-items: center;
     
 }
+// .redessociales1 {
+//     font-size: 25px;
+//     margin: 15px;
+//     color: #57cc99;
+// }
+
+// .redessociales2 {
+//     font-size: 25px;
+//     color: #57cc99;
+// }
+
+$redes:(
+    facebook:blue,
+    Instagram:pink,
+);
+
+@each $red, $color in $redes {
+   .btn-#{$red} {
+        color:$color;
+   } 
+}
+
