@@ -48,3 +48,19 @@ $redes:(
    } 
 }
 
+.boton {
+    width: 20px;
+    height: 25px;
+    text-align: center;
+    color: black;
+    border: solid 1px yellow;
+    background-color: blue;
+}
+.borrarcontenido {
+    @extend .boton;
+    background-color: red;
+}
+.enviar {
+    @extend .boton;
+    background-color: #57cc99;
+}

@@ -312,12 +312,12 @@ nav li {
   text-decoration: underline;
   color: #57cc99; }
 
-.esclerosis {
-  font-style: italic;
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center; }
-
+/*.esclerosis {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}*/
 .esclerosistext {
   width: 800px;
   height: 750px;
@@ -423,6 +423,10 @@ nav li {
   padding: 5px;
   margin: 10px; }
 
+.esclerosis {
+  height: 40px;
+  width: 35px; }
+
 .conteiner {
   background-color: #d8e2dc; }
 
@@ -453,3 +457,17 @@ nav li {
 
 .btn-Instagram {
   color: pink; }
+
+.boton, .borrarcontenido, .enviar {
+  width: 20px;
+  height: 25px;
+  text-align: center;
+  color: black;
+  border: solid 1px yellow;
+  background-color: blue; }
+
+.borrarcontenido {
+  background-color: red; }
+
+.enviar {
+  background-color: #57cc99; }

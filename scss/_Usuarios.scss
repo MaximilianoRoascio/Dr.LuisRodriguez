@@ -13,12 +13,12 @@
     text-decoration: underline;
     color: #57cc99;
 }
-.esclerosis {
+/*.esclerosis {
     font-style: italic;
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-}
+}*/
 
 .esclerosistext {
     width: 800px;
@@ -132,4 +132,12 @@
     padding: 5px;
     margin: 10px;
     
+}
+@mixin tamano ($width, $height){
+    height: $height;
+    width: $width;
+}
+.esclerosis {
+    @include tamano (35px, 40px)
+
 }
