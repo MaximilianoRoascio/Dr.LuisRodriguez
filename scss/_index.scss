@@ -45,16 +45,6 @@ nav li {
     background-color: #57cc99;
     width: 100%;
     padding: 30px;
-    /*display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    "fondomain__especialidad fondomainDr aside";
-    border-top: solid antiquewhite;
-    grid-column-gap: 20px;
-    grid-row-gap: 10px;
-    border: solid 2px green;
-    margin-bottom: 10px;*/
    
 }
 .parallax {
@@ -67,14 +57,19 @@ nav li {
      background-repeat: no-repeat;
      background-size: cover;
 
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
+}
+.sectionindex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
 }
 .tituloParallax {
     font-style: initial;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     text-decoration: dotted underline;
@@ -86,16 +81,17 @@ nav li {
 }
 
 .parallaxtexto {
-    height: 450px;  
-    font-style: oblique;
+    height: 400px;  
+    font-style: normal;
     font-weight: bold;
     font-size: 30px;
-    border:dashed;
-    margin: 30px;
-    padding: 10px 10px 10px 10px;
-    bottom: 10px 10px 10px 10px;
+    margin-top: 20px;
+    padding: 80px; 
     overflow: auto;
+    text-align: center;
+    color: black;
 }
+
 .parallaxSalud {
 
     background-image: url("../img/8611c76222d59717cc9c777d1ede01e1-fondo-negro-abstracto.jpg");
@@ -107,7 +103,9 @@ nav li {
      background-size: cover;
      display: flex;
      flex-direction: row;
-     justify-content: center;
+     flex-wrap: nowrap;
+     justify-content: space-between;
+     align-items: center;
 }
 .youtube { 
     margin-top: 60px;
@@ -176,7 +174,7 @@ nav li {
 }
 .visite {
     width: 200px;
-    height: 300px;
+    height: 360px;
     background-color: #57cc99;
     font-size: 30px;
     border: solid 1px black;
@@ -184,7 +182,8 @@ nav li {
 }
 .gps {
     width: 400px;
-    margin: 30px;
+    margin: 20px;
+    bottom: 20px;
     
 }
 .aside {

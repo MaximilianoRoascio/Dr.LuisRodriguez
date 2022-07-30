@@ -68,7 +68,7 @@ nav li {
      background-size: cover;
 
      display: flex;
-     flex-direction: row;
+     flex-direction: column;
      justify-content: center;
 }
 .tituloParallax {
@@ -86,7 +86,7 @@ nav li {
 }
 
 .parallaxtexto {
-    height: 450px;  
+    height: 300px;  
     font-style: oblique;
     font-weight: bold;
     font-size: 30px;
@@ -95,6 +95,7 @@ nav li {
     padding: 10px 10px 10px 10px;
     bottom: 10px 10px 10px 10px;
     overflow: auto;
+    
 }
 .parallaxSalud {
 
@@ -176,14 +177,14 @@ nav li {
 }
 .visite {
     width: 200px;
-    height: 300px;
+    height: 350px;
     background-color: #57cc99;
-    font-size: 30px;
+    font-size: 10px;
     border: solid 1px black;
-    margin: 50px;
+    
 }
 .gps {
-    width: 400px;
+    width: 250px;
     margin: 30px;
     
 }
@@ -404,10 +405,11 @@ nav li {
 
 .conteinerusuarios {
     background-color: #d8e2dc;
-    background-image: url(../img/esclerosis-multiple-800x675.jpg);
+    /*background-image: url(../img/esclerosis-multiple-800x675.jpg);*/
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
+    overflow: auto;
 }
 .conteinerusuarios__sub {
     font-style: inherit;
@@ -424,6 +426,7 @@ nav li {
     text-align: center;
 }
 
+
 .esclerosistext {
     width: 800px;
     height: 750px;
@@ -431,8 +434,8 @@ nav li {
     font-weight: lighter;
     font-size: 20px;
     margin: 100px;
-    position: relative;
-    left: 1500px;
+    /*position: relative;
+    left: 1500px;*/
     bottom: 100px;
 }
 .parallaxusuarios {
@@ -458,15 +461,16 @@ nav li {
  }
  .vitaminadtext {
     width: 800px;
-    height: 500px;
+    height: 300px;
     overflow: auto;
-    position: relative;
-    left: 1100px;
+    /*position: relative;
+    left: 1100px;*/
     margin: 40px;
     color: #57cc99;
     font-size: 30px;
     border-style: solid;
     border-color: orange;
+    text-align: center;
  }
  .containerusuarios2 {
     margin: 10px;
@@ -490,13 +494,23 @@ nav li {
     font-size: 30px;
     margin: 10px;
     padding: 10px;
-    position: relative;
-    left: 450px;
+    /*position: relative;
+    left: 450px;*/
+    overflow: auto;
 
  }
  .conteinerriesgovascular {
     background-color:#d8e2dc;
     height: 500px;
+ }
+ .parallaxvascular {
+    background-image: url("../img/ACV1.jpg");
+    height: 600px;
+    
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
  }
  .vasculartitle {
     font-style: oblique;
@@ -510,31 +524,38 @@ nav li {
     width: 80%;
     height: 450px;
     text-align: justify;
-    position: relative;
-    left: 550px;
-    bottom: 300px;
+    /*position: relative;
+    left: 550px;*/
+    overflow: auto;
+    padding: 40px;
     font-size: 25px;
+    color: #57cc99;
 }
-.imgvascular {
-    margin: 10px;
-}
+
 .conteinercerebro {
     background-color: gray;
+    margin-top: 50px;
 }
 .cerebrotitle {
     font-size: 35px;    
-    color: #57cc99;
+    color: black;
     background-color: antiquewhite;
     text-align: center;
 }
 .cerebroimg { 
-    position: relative;
-    left: 1300px;
+    display: flex;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 600px;
 }
 .cerebrotext {
+    width: 90%;
+    height: 450px;
     font-size: 20px;
     padding: 5px;
     margin: 10px;
+    overflow: auto;
     
 }
 

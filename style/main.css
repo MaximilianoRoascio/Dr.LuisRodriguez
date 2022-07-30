@@ -39,17 +39,7 @@ nav li {
 .fondomain {
   background-color: #57cc99;
   width: 100%;
-  padding: 30px;
-  /*display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    "fondomain__especialidad fondomainDr aside";
-    border-top: solid antiquewhite;
-    grid-column-gap: 20px;
-    grid-row-gap: 10px;
-    border: solid 2px green;
-    margin-bottom: 10px;*/ }
+  padding: 30px; }
 
 .parallax {
   background-image: url("../img/ART1-Q-ES-NEUROLOGIA.jpg");
@@ -57,15 +47,19 @@ nav li {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; }
+
+.sectionindex {
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
 
 .tituloParallax {
   font-style: initial;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 40px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
   text-decoration: dotted underline;
@@ -76,15 +70,15 @@ nav li {
   top: 5px; }
 
 .parallaxtexto {
-  height: 450px;
-  font-style: oblique;
+  height: 400px;
+  font-style: normal;
   font-weight: bold;
   font-size: 30px;
-  border: dashed;
-  margin: 30px;
-  padding: 10px 10px 10px 10px;
-  bottom: 10px 10px 10px 10px;
-  overflow: auto; }
+  margin-top: 20px;
+  padding: 80px;
+  overflow: auto;
+  text-align: center;
+  color: black; }
 
 .parallaxSalud {
   background-image: url("../img/8611c76222d59717cc9c777d1ede01e1-fondo-negro-abstracto.jpg");
@@ -95,7 +89,9 @@ nav li {
   background-size: cover;
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center; }
 
 .youtube {
   margin-top: 60px;
@@ -157,7 +153,7 @@ nav li {
 
 .visite {
   width: 200px;
-  height: 300px;
+  height: 360px;
   background-color: #57cc99;
   font-size: 30px;
   border: solid 1px black;
@@ -165,7 +161,8 @@ nav li {
 
 .gps {
   width: 400px;
-  margin: 30px; }
+  margin: 20px;
+  bottom: 20px; }
 
 .aside {
   width: 500px;
@@ -183,7 +180,7 @@ nav li {
 .conteinermi__dr {
   font-style: normal;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   color: #57cc99; }
@@ -193,26 +190,31 @@ nav li {
   color: antiquewhite;
   font-size: 20px;
   text-align: center;
-  margin: 30px; }
+  margin: 10px; }
 
 .sobremi {
   text-align: center;
   color: black;
-  font-size: 40px; }
+  font-size: 40px;
+  text-decoration: underline; }
 
 .sobremih4 {
   text-align: center;
   margin-top: 40px; }
 
-.imagensobremi {
-  position: relative;
-  left: 1600px;
-  width: 200px;
-  margin: 30px; }
+.gut {
+  background-color: #57cc99;
+  border: #57cc99 solid 2px;
+  margin: 5px; }
 
 .conteinersobremi {
   text-align: center;
   font-size: 25px; }
+
+.laboral {
+  background-color: #57cc99;
+  border: #57cc99 solid 2px;
+  margin: 5px; }
 
 .titlesobremi {
   display: flex;
@@ -232,70 +234,78 @@ nav li {
   display: flex;
   justify-content: center; }
 
-.backcolor {
-  background-color: #57cc99; }
-
 .backcolor article {
   border: solid 1px black; }
 
-.conteinersobremi__grids {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-areas: "grids1 grids3 grids3 grids2" "grids1 grids3 grids3 grids2" "grids4 grids4 grids4 grids2";
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px; }
+.academia {
+  background-color: dimgray;
+  border: solid 2px black; }
 
-.grids1 {
-  grid-area: grids1;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  grid-column-gap: 1px;
-  grid-row-gap: 1px; }
+.formacion {
+  background-color: dimgray;
+  border: solid black 2px;
+  margin: 5px; }
 
-.grids2 {
-  grid-area: grids2; }
+.docente {
+  background-color: #57cc99;
+  border: #57cc99 solid 2px;
+  margin: 5px; }
 
-.grids3 {
-  grid-area: grids3; }
-
-.grids4 {
-  grid-area: grids4; }
-
-.menutips {
-  list-style-type: none; }
-
-.menutips li {
-  display: inline-block;
-  font-size: 20px;
-  padding: 20px;
-  position: relative; }
-
-.submenutips {
-  position: absolute;
-  display: none;
-  background-color: black; }
-
-.submenutips li {
-  display: block; }
-
-.menutips li:hover .submenutips {
-  display: block; }
+.parallaxvisite {
+  margin: 5px;
+  padding: 10px; }
 
 .conteinertips {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly; }
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center; }
 
 .footerback {
   width: 100%;
   height: 200px;
   background-color: black; }
+
+.migrana {
+  margin: 10px;
+  padding: 20px; }
+
+.Libro {
+  margin: 10px;
+  padding: 20px; }
+
+.Esquizofrenia {
+  margin: 10px;
+  padding: 20px; }
+
+.alimentos {
+  margin: 10px;
+  padding: 20px; }
+
+.visite {
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  border: solid 1px black;
+  margin: 50px; }
+
+.parallaxvisite {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .migrana {
+    display: inline-block; }
+  .Libro {
+    display: inline-block; }
+  .Esquizofrenia {
+    display: inline-block; }
+  .alimentos {
+    display: inline-block; } }
 
 .conteinerusuarios {
   background-color: #d8e2dc;
@@ -437,7 +447,9 @@ nav li {
   font-family: serif;
   text-align: center;
   color: #57cc99;
-  text-decoration: underline; }
+  text-decoration: underline;
+  padding-top: 40px;
+  margin: 10px; }
 
 .textocontacto {
   font-style: normal;
@@ -451,23 +463,3 @@ nav li {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center; }
-
-.btn-facebook {
-  color: blue; }
-
-.btn-Instagram {
-  color: pink; }
-
-.boton, .borrarcontenido, .enviar {
-  width: 20px;
-  height: 25px;
-  text-align: center;
-  color: black;
-  border: solid 1px yellow;
-  background-color: blue; }
-
-.borrarcontenido {
-  background-color: red; }
-
-.enviar {
-  background-color: #57cc99; }

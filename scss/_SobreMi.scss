@@ -7,7 +7,7 @@
 .conteinermi__dr {
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color: #57cc99;
@@ -17,27 +17,33 @@
     color: antiquewhite;
     font-size: 20px;
     text-align: center;
-    margin: 30px;
+    margin: 10px;
 }
+
 .sobremi {
     text-align: center;
     color: black;
     font-size: 40px;
+    text-decoration: underline;
 }
 .sobremih4 {
     text-align: center;
     margin-top: 40px;
+}
+.gut {
+    background-color: #57cc99;
+    border: #57cc99 solid 2px;
+    margin: 5px;
+}
 
-}
-.imagensobremi {
-    position: relative;
-    left: 1600px;
-    width: 200px;
-    margin: 30px;
-}
 .conteinersobremi {
     text-align: center;
     font-size: 25px;
+}
+.laboral {
+    background-color: #57cc99;
+    border: #57cc99 solid 2px;
+    margin: 5px;
 }
 .titlesobremi {
     display: flex;
@@ -57,42 +63,25 @@
     display: flex;
     justify-content: center;
 }
-.backcolor {
-    background-color: #57cc99;
 
-}
 .backcolor article {
     border: solid 1px black;
 }
-.conteinersobremi__grids {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: 
-    "grids1 grids3 grids3 grids2"
-    "grids1 grids3 grids3 grids2"
-    "grids4 grids4 grids4 grids2";
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+.academia {
+    background-color: dimgray;
+    border: solid 2px black;
 }
-.grids1 {
-    grid-area: grids1;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    grid-column-gap: 1px;
-    grid-row-gap: 1px;
-   
+.formacion {
+    background-color: dimgray;
+    border: solid black 2px;
+    margin: 5px;
 }
-.grids2 {
-    grid-area: grids2;
+.docente {
+    background-color: #57cc99;
+    border: #57cc99 solid 2px;
+    margin: 5px;
 }
-.grids3 {
-    grid-area: grids3;
-}
-.grids4 {
-    grid-area: grids4;
+.parallaxvisite {
+    margin: 5px;
+    padding: 10px;
 }

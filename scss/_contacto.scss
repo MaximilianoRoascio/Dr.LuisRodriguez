@@ -11,6 +11,9 @@
     text-align: center;
     color: #57cc99;
     text-decoration: underline;
+    padding-top: 40px;
+    margin: 10px;
+
 }
 .textocontacto {
     font-style: normal;
@@ -25,42 +28,4 @@
     justify-content: space-around;
     align-items: center;
     
-}
-// .redessociales1 {
-//     font-size: 25px;
-//     margin: 15px;
-//     color: #57cc99;
-// }
-
-// .redessociales2 {
-//     font-size: 25px;
-//     color: #57cc99;
-// }
-
-$redes:(
-    facebook:blue,
-    Instagram:pink,
-);
-
-@each $red, $color in $redes {
-   .btn-#{$red} {
-        color:$color;
-   } 
-}
-
-.boton {
-    width: 20px;
-    height: 25px;
-    text-align: center;
-    color: black;
-    border: solid 1px yellow;
-    background-color: blue;
-}
-.borrarcontenido {
-    @extend .boton;
-    background-color: red;
-}
-.enviar {
-    @extend .boton;
-    background-color: #57cc99;
 }
